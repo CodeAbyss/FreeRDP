@@ -22,7 +22,7 @@
 #include <winpr/windows.h>
 
 #include "wf_mirage.h"
-
+#define TAG SERVER_TAG("windows")
 #define DEVICE_KEY_PREFIX	_T("\\Registry\\Machine\\")
 /*
 This function will iterate over the loaded display devices until it finds
